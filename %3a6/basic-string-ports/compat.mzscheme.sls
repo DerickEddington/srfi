@@ -2,9 +2,8 @@
 ;; Copyright 2009 Derick Eddington.  My MIT-style license is in the file named
 ;; LICENSE from the original collection this file is distributed with.
 
-(library (srfi :6 basic-string-ports)
+(library (srfi :6 basic-string-ports compat)
   (export
-    (rename (open-string-input-port open-input-string))
     open-output-string
     get-output-string)
   (import
